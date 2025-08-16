@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Carlito', sans-serif;
     background-color: #313131;
 }
 
@@ -15,6 +15,7 @@ body {
 }
 
 .header {
+    font-family: 'Crimson Text', serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,11 +98,97 @@ nav ul li a {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 1700px;
+    height: 1600px;
 
     background-image: url(images/funFacts.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container h1 {
+    background-color: #FCF0D6;
+    color: #313131;
+    text-shadow: 10px 0px 0px #6B9EBD, -10px 10px 0px #B40023;
+    margin-top: 150px;
+    padding: 10px 60px; 
+    font-size: 180px;
+    font-weight: 500;
+    z-index: -1;
+}
+
+.container p {
+    width: 700px;
+    font-size: 30px;
+    color: #FCF0D6; 
+    text-align: center;
+    line-height: 40px;
+}
+
+.container h2 {
+    color: #6B9EBD;
+    text-shadow: -3px 0px 0px #FCF0D6;
+    margin-top: 300px;
+    margin-left: 660px;
+    width: 600px;
+    font-size: 70px;
+}
+
+.container span {
+    background:
+    linear-gradient(-225deg,#313131 10px,#FCF0D6 10px) bottom left,
+    linear-gradient(-45deg ,#313131 10px,#FCF0D6 10px) bottom right;
+    background-size: 50% 10px;
+    background-repeat: no-repeat;  
+    padding-bottom: 12px;  
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1120px;
+
+    background-image: url(images/nom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container2 h1 {
+    color: #313131;
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.container2 p {
+    color: #313131;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 120px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1720px;
+
+    background-image: url(images/joys.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container3 h1 {
+    color: #FCF0D6; 
+    text-shadow: 6px 0 0  #B40023;
+    font-size: 75px;
+    font-weight: 500;
+}
+
+.container3 p {
+    margin-top: 15px;
+    font-size: 30px;
+    color: #FCF0D6; 
 }

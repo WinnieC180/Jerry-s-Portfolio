@@ -225,6 +225,7 @@ nav ul li a {
 
 .container5 h1 {
     color: #313131;
+    text-shadow: 6px 0px 0px #93C4A6;
     font-size: 78px;
 }
 
@@ -316,6 +317,7 @@ nav ul li a {
 
 .container6 h1 {
     color: #313131;
+    text-shadow: 5px 0px 0px #FFD000, -5px 5px 0px #EF8132;
     -webkit-text-stroke: 2px #FCF0D6;
     font-size: 75px;
     font-weight: 900;
@@ -363,6 +365,10 @@ nav ul li a {
 }
 
 .container7 h1 {
+    background: -webkit-linear-gradient(#F47BBA, #F2916D);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    filter: drop-shadow(5px 5px 0 #313131); ;;
     font-size: 90px;
     font-weight: 900;
 }
