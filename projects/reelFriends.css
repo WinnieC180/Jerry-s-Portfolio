@@ -39,15 +39,15 @@ nav ul li a {
 .active {
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-thickness: 2px; 
-    text-underline-offset: 8px; 
+    text-decoration-thickness: 2px;  
+    text-underline-offset: 12px; 
 }
 
 .star {
     position: absolute;
     color: #FCF0D6;
-    margin-top: 30px;
-    margin-left: 175px;
+    margin-top: 40px;
+    margin-left: 345px;
 }
 
 .dropdown {
@@ -92,16 +92,4 @@ nav ul li a {
     background-color: #FCF0D6; 
     display: block;
     border-radius: 10px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 1700px;
-
-    background-image: url(images/funFacts.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
