@@ -11,15 +11,22 @@ body {
 }
 
 .navbar {
-    margin: 25px 70px 15px 60px;
+    position: fixed;   
+    top: 0;            
+    left: 0;
+    width: 100%;       
+    background: #313131;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    z-index: 3;  
 }
 
 .header {
+    padding: 15px 50px 15px 50px;
+    font-family: 'Crimson Text', serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .icon {
     height: 81.5px;
     width: 144px;

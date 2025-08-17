@@ -12,10 +12,17 @@ body {
 }
 
 .navbar {
-    margin: 25px 70px 15px 60px;
+    position: fixed;   
+    top: 0;            
+    left: 0;
+    width: 100%;       
+    background: #313131;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    z-index: 3;  
 }
 
 .header {
+    padding: 15px 50px 15px 50px;
     font-family: 'Crimson Text', serif;
     display: flex;
     align-items: center;
@@ -101,7 +108,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 730px;
+    height: 850px;
 }
 
 .container .Jerry {
@@ -112,6 +119,7 @@ nav ul li a {
 }
 
 .container .portfolio {
+    margin-top: 180px;
     width: 750px;
 }
 
@@ -120,12 +128,12 @@ nav ul li a {
     color: #FCF0D6;
     font-size: 60px;
     font-weight: 800;
-    top: 570px;
+    top: 590px;
 }
 
 .container .scribble {
     position: absolute;
-    top: 525px;
+    top: 545px;
 }
 
 .container2 {
@@ -380,4 +388,9 @@ nav ul li a {
 
 .container7 p {
     font-size: 32px;
+}
+
+footer {
+    background-color: #313131;
+    height: 350px;
 }

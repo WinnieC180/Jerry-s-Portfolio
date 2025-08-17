@@ -11,10 +11,17 @@ body {
 }
 
 .navbar {
-    margin: 25px 70px 15px 60px;
+    position: fixed;   
+    top: 0;            
+    left: 0;
+    width: 100%;       
+    background: #313131;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    z-index: 3;  
 }
 
 .header {
+    padding: 15px 50px 15px 50px;
     font-family: 'Crimson Text', serif;
     display: flex;
     align-items: center;
@@ -99,6 +106,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     height: 1600px;
+    margin-top: 160px;
 
     background-image: url(images/funFacts.png);
     background-repeat: no-repeat;
@@ -148,6 +156,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     height: 1120px;
+    margin: 150px 0 150px 0;
 
     background-image: url(images/nom.png);
     background-repeat: no-repeat;
@@ -174,6 +183,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     height: 1720px;
+    margin: 100px 0 100px 0;
 
     background-image: url(images/joys.png);
     background-repeat: no-repeat;
@@ -191,4 +201,25 @@ nav ul li a {
     margin-top: 15px;
     font-size: 30px;
     color: #FCF0D6; 
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1610px;
+    margin: 150px 0 150px 0;
+
+    background-image: url(images/Bday.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container4 h1 {
+    margin-bottom: 310px;
+    text-align: center;
+    color: #313131;
+    width: 500px;
+    font-size: 65px;
 }
